@@ -37,11 +37,14 @@ JavaScript – For basic interactivity and responsiveness.
 
 📸 Screenshots
 
-Screenshot 1 (1)
+<img width="1365" height="685" alt="Profile_Section" src="https://github.com/user-attachments/assets/f0a0ecfb-12e0-41ff-84e8-3da043493d04" />
 
-Screenshot 2 (2)
 
-Screenshot 3 (3)
+<img width="1365" height="621" alt="Projects_Section" src="https://github.com/user-attachments/assets/487cbc63-36f2-4311-aa07-fedba48acfa1" />
+
+
+<img width="1360" height="629" alt="Contact_Sectio n" src="https://github.com/user-attachments/assets/9d4f68d6-3f9f-414c-b9fa-0ab7b04e8b63" />
+
 
 ----------------------
 
@@ -58,6 +61,7 @@ cd task_4-appex-planet
 ----------------------------------
 
 👨‍💻 Author
+
 Khushboo Kushwaha
 
 🌐 [LinkedIn Profile](https://www.linkedin.com/in/khushboo-kushwaha-88b2a4311/)
