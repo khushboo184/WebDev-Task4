@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khushboo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a class="nav-link active" data-target="home">Home</a></li>
+                <li><a class="nav-link" data-target="projects">Projects</a></li>
+                <li><a class="nav-link" data-target="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="active">
+        <div class="home-text">
+            <h2>Hi, I'm <span>Khushboo</span></h2>
+            <p>A passionate Web Developer skilled in HTML, CSS, JavaScript, and Java Developer</p>
+            <a class="btn" onclick="showSection('projects')">View My Projects</a>
+        </div>
+        <div class="home-img">
+            <img src="Image.jpg" alt="Image">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Netflix Clone</h3>
+                <p>Built a Netflix home page using HTML, CSS </p>
+                <a href="https://khushboo184.github.io/Netflix-Home-Page/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>To-Do App</h3>
+                <p>A fully functional to-do list app with localStorage feature.</p>
+                <a href="https://khushboo184.github.io/webdev-task2/" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Interactive Web Experience featuring a Weather App, Quiz Module, and Auto-Image Carousel</h3>
+                <p>Interactive product listing with filtering and sorting.</p>
+                <a href="https://khushboo184.github.io/WebDev-Task3/" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="responseMsg"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Khushboo | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
